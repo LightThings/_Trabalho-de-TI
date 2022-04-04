@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <title>Little Converter</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class= "header">
+        <img src="assets/little converter-logos.jpeg" alt="" srcset="">
+   
+    </header>
+
+   <main class="container">
+    <article class="card">
+        <header class="card__header">
+            <p>BRL para Dólar</p>
+            <img src="assets/simbolo-do-dolar (1).png" alt="">
+        </header>
+        <form class="card__form">
+            <input type="text"id="realDolar" placeholder="Informe o valor em real">
+            <button type="button" onclick="conversao.converterRealDolar()">Converter</button>
+        </form>
+
+        <section class="content" id="resultadoRealDolar"></section>
+
+    </article>
+
+    <article class="card">
+        <header class="card__header">
+            <p>BRL para Euro</p>
+            <img src="assets/—Pngtree—gold 3d letter euro design_6048441.png" alt="">
+        </header>
+        <form class="card__form">
+            <input type="text"id="realEuro" placeholder="Informe o valor em real">
+            <button type="button" onclick="conversao.converterRealEuro()">Converter</button>
+        </form>
+
+        <section class="content" id="resultadoRealEuro"></section>
+
+    </article>
+  
+    <article class="card">
+        <header class="card__header">
+            <p>BRL para Libra</p>
+            <img src="assets/—Pngtree—pound icon_3697630.png" alt="">
+        </header>
+        <form class="card__form">
+            <input type="text"id="realLibra" placeholder="Informe o valor em real">
+            <button type="button" onclick="conversao.converterRealLibra()">Converter</button>
+        </form>
+
+        <section class="content" id="resultadoRealLibra"></section>
+
+    </article>
+
+    <article class="card">
+        <header class="card__header">
+            <p>BRL para Iene</p>
+            <img src="assets/—Pngtree—yen icon_3700419.png" alt="">
+        </header>
+        <form class="card__form">
+            <input type="text"id="realIene" placeholder="Informe o valor em real">
+            <button type="button" onclick="conversao.converterRealIene()">Converter</button>
+        </form>
+
+        <section class="content" id="resultadoRealIene"></section>
+
+    </article>
+
+    <article class="card">
+        <header class="card__header">
+            <p>BRL para Peso Filipino</p>
+            <img src="assets/simbolo-da-moeda-peso-filipino.png" alt="">
+        </header>
+        <form class="card__form">
+            <input type="text"id="realPeso" placeholder="Informe o valor em real">
+            <button type="button" onclick="conversao.converterRealPeso()">Converter</button>
+        </form>
+
+        <section class="content" id="resultadoRealPeso"></section>
+
+    </article>
+
+    <article class="card">
+        <header class="card__header">
+            <p>Dolar para BRL</p>
+            <img src="assets/favpng_powell-law-group-p-c-brazilian-real-moeda-de-um-real.png" alt="">
+        </header>
+        <form class="card__form">
+            <input type="text"id="dolar2Brl" placeholder="Informe o valor em dolar">
+            <button type="button" onclick="conversao.converterDolar2Brl()">Converter</button>
+        </form>
+
+        <section class="content" id="resultadoDolar2Brl"></section>
+
+    </article>
+
+
+</main>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
